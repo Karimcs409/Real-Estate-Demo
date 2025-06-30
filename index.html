@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع العقارات</title>
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-home"></i> عقاراتنا</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-house"></i> الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#properties"><i class="fas fa-building"></i> العقارات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center py-5">
+            <h1>اكتشف منزلك المثالي</h1>
+            <p class="lead">نقدم لك أفضل العقارات في أفضل المواقع</p>
+            <div class="search-box mt-4">
+                <input type="text" class="form-control" placeholder="ابحث عن عقار...">
+                <button class="btn btn-primary mt-2"><i class="fas fa-search"></i> بحث</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Properties Section -->
+    <section id="properties" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">أحدث العقارات</h2>
+            <div class="row">
+                <!-- Property Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="شقة فاخرة">
+                        <div class="card-body">
+                            <h5 class="card-title">شقة فاخرة</h5>
+                            <p class="card-text"><i class="fas fa-bed"></i> 3 غرف نوم | <i class="fas fa-bath"></i> 2 حمام | <i class="fas fa-ruler-combined"></i> 150م²</p>
+                            <p class="price">1,500,000 ريال</p>
+                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Property Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="فيلا مستقلة">
+                        <div class="card-body">
+                            <h5 class="card-title">فيلا مستقلة</h5>
+                            <p class="card-text"><i class="fas fa-bed"></i> 5 غرف نوم | <i class="fas fa-bath"></i> 3 حمام | <i class="fas fa-ruler-combined"></i> 300م²</p>
+                            <p class="price">2,500,000 ريال</p>
+                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Property Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="شقة دوبلكس">
+                        <div class="card-body">
+                            <h5 class="card-title">شقة دوبلكس</h5>
+                            <p class="card-text"><i class="fas fa-bed"></i> 4 غرف نوم | <i class="fas fa-bath"></i> 3 حمام | <i class="fas fa-ruler-combined"></i> 200م²</p>
+                            <p class="price">1,800,000 ريال</p>
+                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">اتصل بنا</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="الاسم">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" class="form-control" placeholder="البريد الإلكتروني">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-comment"></i></span>
+                                <textarea class="form-control" rows="4" placeholder="رسالتك"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-light w-100"><i class="fas fa-paper-plane"></i> إرسال</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>جميع الحقوق محفوظة &copy; 2024</p>
+            <div class="social-links">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
