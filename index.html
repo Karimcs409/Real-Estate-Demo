@@ -32,7 +32,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> اتصل بنا</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorites.html"><i class="fas fa-heart"></i> المفضلة</a>
+                    </li>
                 </ul>
+                <button id="dark-mode-toggle" title="الوضع الليلي"><i class="fas fa-moon"></i></button>
             </div>
         </div>
     </nav>
@@ -53,43 +57,40 @@
     <section id="properties" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">أحدث العقارات</h2>
+            <form id="filters" class="row g-3 mb-4">
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="min-bedrooms" placeholder="عدد الغرف (من)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="max-bedrooms" placeholder="عدد الغرف (إلى)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="min-bathrooms" placeholder="الحمامات (من)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="max-bathrooms" placeholder="الحمامات (إلى)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="min-area" placeholder="المساحة (م² من)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="max-area" placeholder="المساحة (م² إلى)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="min-price" placeholder="السعر (من)">
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="max-price" placeholder="السعر (إلى)">
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary w-100" id="apply-filters"><i class="fas fa-filter"></i> تصفية</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-secondary w-100" id="reset-filters">إعادة تعيين</button>
+                </div>
+            </form>
             <div class="row">
-                <!-- Property Card 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="شقة فاخرة">
-                        <div class="card-body">
-                            <h5 class="card-title">شقة فاخرة</h5>
-                            <p class="card-text"><i class="fas fa-bed"></i> 3 غرف نوم | <i class="fas fa-bath"></i> 2 حمام | <i class="fas fa-ruler-combined"></i> 150م²</p>
-                            <p class="price">1,500,000 ريال</p>
-                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Property Card 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="فيلا مستقلة">
-                        <div class="card-body">
-                            <h5 class="card-title">فيلا مستقلة</h5>
-                            <p class="card-text"><i class="fas fa-bed"></i> 5 غرف نوم | <i class="fas fa-bath"></i> 3 حمام | <i class="fas fa-ruler-combined"></i> 300م²</p>
-                            <p class="price">2,500,000 ريال</p>
-                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Property Card 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="شقة دوبلكس">
-                        <div class="card-body">
-                            <h5 class="card-title">شقة دوبلكس</h5>
-                            <p class="card-text"><i class="fas fa-bed"></i> 4 غرف نوم | <i class="fas fa-bath"></i> 3 حمام | <i class="fas fa-ruler-combined"></i> 200م²</p>
-                            <p class="price">1,800,000 ريال</p>
-                            <button class="btn btn-primary w-100"><i class="fas fa-info-circle"></i> عرض التفاصيل</button>
-                        </div>
-                    </div>
-                </div>
+                <!-- سيتم ملء البطاقات ديناميكيًا -->
             </div>
         </div>
     </section>

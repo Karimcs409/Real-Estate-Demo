@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "شقة فاخرة",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 150,
+    "price": "1,500,000",
+    "description": "شقة فاخرة في موقع مميز مع إطلالة رائعة."
+  },
+  {
+    "id": 2,
+    "title": "فيلا مستقلة",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "area": 300,
+    "price": "2,500,000",
+    "description": "فيلا مستقلة مع حديقة واسعة ومسبح."
+  },
+  {
+    "id": 3,
+    "title": "شقة دوبلكس",
+    "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 200,
+    "price": "1,800,000",
+    "description": "شقة دوبلكس بتصميم عصري ومساحات واسعة."
+  }
+] 
